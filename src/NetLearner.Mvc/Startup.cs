@@ -15,10 +15,8 @@ using NetLearner.SharedLib.Data;
 using NetLearner.SharedLib.Services;
 using Microsoft.AspNetCore.Http;
 
-namespace NetLearner.Mvc
-{
-    public class Startup
-    {
+namespace NetLearner.Mvc {
+    public class Startup     {
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
